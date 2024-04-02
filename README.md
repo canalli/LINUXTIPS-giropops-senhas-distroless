@@ -15,7 +15,7 @@ docker container run -d --name redis -p 6379:6379 cgr.dev/chainguard/redis
 ## Executando a aplicação principal
 
 ```
-docker container run --name giropops-senhas-distroless -d -p 5000:5000 canalli/giropops-senhas-distroless
+docker container run -d -p 5000:5000 --name giropops-senhas-distroless canalli/giropops-senhas-distroless:1.0
 ```
 
 ## Autenticação DockerHub
