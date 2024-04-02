@@ -1,0 +1,4 @@
+flask
+Werkzeug
+redis
+prometheus_client
